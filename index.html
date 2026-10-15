@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f6f2">
+    <title>Page Experience Sprint | A practical 5-day website tune-up</title>
+    <meta name="description" content="A focused, practical sprint for improving Core Web Vitals, mobile usability, accessibility, and technical SEO, one measured change at a time.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Page Experience Sprint">
+    <meta property="og:description" content="A practical 5-day tune-up for a faster, clearer, more accessible website.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&amp;fit=crop&amp;w=1200&amp;q=80">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="wordmark" href="#top" aria-label="Page Experience Sprint home">
+          <span class="wordmark-mark" aria-hidden="true">P<span>/</span></span>
+          <span>Page Experience<br><strong>Sprint</strong></span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#vitals">The benchmarks</a>
+          <a href="#sprint-checklist">Sprint checklist</a>
+          <a class="nav-cta" href="#sprint-checklist">Get started <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero page-wrap" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> A field guide for better websites</p>
+          <h1 id="hero-title">Make every<br>page feel <em>faster.</em></h1>
+          <p class="hero-description">A focused five-day tune-up for the things visitors notice first: speed, clarity, and a site that works for everyone.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#sprint-checklist">Start your sprint <span aria-hidden="true">→</span></a>
+            <a class="text-link" href="#vitals">See what good looks like <span aria-hidden="true">↓</span></a>
+          </div>
+          <p class="hero-note"><span aria-hidden="true">✳</span> Measure first. Improve what matters. Measure again.</p>
+        </div>
+        <figure class="hero-visual">
+          <img
+            src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&amp;fit=crop&amp;w=1200&amp;q=80"
+            srcset="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&amp;fit=crop&amp;w=640&amp;q=75 640w, https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&amp;fit=crop&amp;w=960&amp;q=80 960w, https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&amp;fit=crop&amp;w=1200&amp;q=80 1200w"
+            sizes="(max-width: 760px) calc(100vw - 40px), 48vw"
+            width="1200"
+            height="900"
+            alt="Laptop open to a code editor on a bright, tidy desk"
+            fetchpriority="high"
+            decoding="async"
+          >
+          <figcaption><span class="caption-index">01 / 05</span><span>Good experiences are built, not guessed.</span></figcaption>
+          <span class="visual-stamp" aria-hidden="true">Small<br>changes.<br><b>Real impact.</b></span>
+        </figure>
+      </section>
+
+      <section class="benchmarks" id="vitals" aria-labelledby="benchmarks-title">
+        <div class="page-wrap benchmarks-inner">
+          <div class="benchmarks-intro">
+            <p class="eyebrow eyebrow-light">The targets to know</p>
+            <h2 id="benchmarks-title">Good feels<br>like this.</h2>
+            <p>Use the 75th percentile of real-user data when available. These are thresholds, not a score for this site.</p>
+          </div>
+          <div class="metric-list">
+            <article class="metric-row">
+              <span class="metric-symbol metric-symbol-coral" aria-hidden="true">L</span>
+              <div><h3>Largest Contentful Paint</h3><p>Loading · main content appears</p></div>
+              <strong class="metric-value">≤ 2.5 <small>sec</small></strong>
+            </article>
+            <article class="metric-row">
+              <span class="metric-symbol metric-symbol-yellow" aria-hidden="true">I</span>
+              <div><h3>Interaction to Next Paint</h3><p>Responsiveness · an action responds</p></div>
+              <strong class="metric-value">≤ 200 <small>ms</small></strong>
+            </article>
+            <article class="metric-row">
+              <span class="metric-symbol metric-symbol-mint" aria-hidden="true">C</span>
+              <div><h3>Cumulative Layout Shift</h3><p>Visual stability · content stays put</p></div>
+              <strong class="metric-value">≤ 0.1</strong>
+            </article>
+          </div>
+          <p class="benchmarks-source">Based on <a href="https://web.dev/articles/vitals" target="_blank" rel="noreferrer">Google's Core Web Vitals guidance <span aria-hidden="true">↗</span></a></p>
+        </div>
+      </section>
+
+      <section class="sprint-section page-wrap" id="sprint-checklist" aria-labelledby="sprint-title">
+        <div class="sprint-heading">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> Your working plan</p>
+            <h2 id="sprint-title">Five days.<br><em>One better site.</em></h2>
+          </div>
+          <p class="sprint-intro">Work down the list, one useful improvement at a time. Your checkmarks stay in this browser; no audit runs automatically.</p>
+        </div>
+
+        <div class="sprint-layout">
+          <aside class="progress-panel" aria-label="Sprint progress">
+            <div class="progress-panel-top">
+              <span class="progress-kicker">Your progress</span>
+              <span class="progress-number" id="progress-number">0%</span>
+            </div>
+            <div class="progress-track" role="progressbar" aria-label="Checklist completion" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="progress-bar">
+              <span class="progress-fill" id="progress-fill"></span>
+            </div>
+            <p class="progress-status" id="progress-status" aria-live="polite">0 of 12 steps complete</p>
+            <div class="progress-rule"></div>
+            <p class="progress-tip"><span aria-hidden="true">↗</span> Start with real-user data in Search Console. Lab tests help you find the cause.</p>
+            <button class="button button-outline" id="copy-brief" type="button"><span aria-hidden="true">▣</span> Copy sprint brief</button>
+            <p class="copy-status" id="copy-status" aria-live="polite"></p>
+            <button class="reset-button" id="reset-checklist" type="button">Reset checkmarks</button>
+          </aside>
+
+          <div class="checklist" aria-describedby="progress-status">
+            <section class="day-group" aria-labelledby="day-one-title">
+              <div class="day-heading"><span class="day-number">01</span><div><p>Day one · Baseline</p><h3 id="day-one-title">Find the real bottleneck</h3></div></div>
+              <label class="task-row"><input type="checkbox" data-task="field-data"><span class="custom-check" aria-hidden="true"></span><span class="task-copy"><strong>Review field data</strong><small>Check Search Console's Core Web Vitals report or CrUX data.</small></span></label>
+              <label class="task-row"><input type="checkbox" data-task="lighthouse"><span class="custom-check" aria-hidden="true"></span><span class="task-copy"><strong>Run a mobile Lighthouse audit</strong><small>Use a representative page in a clean browser session; record the results.</small></span></label>
+              <label class="task-row"><input type="checkbox" data-task="top-pages"><span class="custom-check" aria-hidden="true"></span><span class="task-copy"><strong>Choose the pages that matter</strong><small>Prioritize high-traffic templates and the journey's key landing pages.</small></span></label>
+            </section>
+
+            <section class="day-group" aria-labelledby="day-two-title">
+              <div class="day-heading"><span class="day-number">02</span><div><p>Day two · Loading</p><h3 id="day-two-title">Get the main content there</h3></div></div>
+              <label class="task-row"><input type="checkbox" data-task="lcp-element"><span class="custom-check" aria-hidden="true"></span><span class="task-copy"><strong>Identify the LCP element</strong><small>Prioritize its image, font, or server response based on the trace.</small></span></label>
+              <label class="task-row"><input type="checkbox" data-task="images"><span class="custom-check" aria-hidden="true"></span><span class="task-copy"><strong>Right-size and compress images</strong><small>Serve responsive formats; lazy-load below-the-fold imagery only.</small></span></label>
+              <label class="task-row"><input type="checkbox" data-task="rendering"><span class="custom-check" aria-hidden="true"></span><span class="task-copy"><strong>Trim render-blocking work</strong><small>Remove unused CSS and defer non-critical JavaScript.</small></span></label>
+            </section>
+
+            <section class="day-group" aria-labelledby="day-three-title">
+              <div class="day-heading"><span class="day-number">03</span><div><p>Day three · Interaction</p><h3 id="day-three-title">Make every response feel instant</h3></div></div>
+              <label class="task-row"><input type="checkbox" data-task="long-tasks"><span class="custom-check" aria-hidden="true"></span><span class="task-copy"><strong>Find long tasks in the performance trace</strong><small>Break up costly work that blocks taps, clicks, and typing.</small></span></label>
+              <label class="task-row"><input type="checkbox" data-task="third-parties"><span class="custom-check" aria-hidden="true"></span><span class="task-copy"><strong>Audit third-party scripts</strong><small>Remove, delay, or limit tags that do not earn their cost.</small></span></label>
+            </section>
+
+            <section class="day-group" aria-labelledby="day-four-title">
+              <div class="day-heading"><span class="day-number">04</span><div><p>Day four · Stability &amp; access</p><h3 id="day-four-title">Keep the page steady for everyone</h3></div></div>
+              <label class="task-row"><input type="checkbox" data-task="layout-shifts"><span class="custom-check" aria-hidden="true"></span><span class="task-copy"><strong>Reserve space for media and embeds</strong><small>Set dimensions or aspect ratios to prevent layout shifts.</small></span></label>
+              <label class="task-row"><input type="checkbox" data-task="keyboard"><span class="custom-check" aria-hidden="true"></span><span class="task-copy"><strong>Test keyboard access and focus</strong><small>Check the complete journey without a mouse; keep focus visible.</small></span></label>
+            </section>
+
+            <section class="day-group" aria-labelledby="day-five-title">
+              <div class="day-heading"><span class="day-number">05</span><div><p>Day five · Search &amp; verify</p><h3 id="day-five-title">Ship the fix. Check the page.</h3></div></div>
+              <label class="task-row"><input type="checkbox" data-task="metadata"><span class="custom-check" aria-hidden="true"></span><span class="task-copy"><strong>Review page titles and descriptions</strong><small>Make each important page's metadata accurate and distinct.</small></span></label>
+              <label class="task-row"><input type="checkbox" data-task="verify"><span class="custom-check" aria-hidden="true"></span><span class="task-copy"><strong>Repeat the same tests after shipping</strong><small>Compare lab results and monitor field data as it updates.</small></span></label>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section class="closing-band" aria-labelledby="closing-title">
+        <div class="page-wrap closing-inner">
+          <p class="closing-index">A useful reminder <span>↘</span></p>
+          <h2 id="closing-title">A green score is nice.<br><em>A better visit is the point.</em></h2>
+          <a href="#sprint-checklist" class="closing-link">Back to your checklist <span aria-hidden="true">↑</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="page-wrap footer-inner">
+        <a class="wordmark footer-wordmark" href="#top" aria-label="Page Experience Sprint, back to top"><span class="wordmark-mark" aria-hidden="true">P<span>/</span></span><span>Page Experience<br><strong>Sprint</strong></span></a>
+        <p>Benchmarks current to Google's published Core Web Vitals guidance.<br>This checklist is a starting point, not a substitute for measurement.</p>
+        <a class="footer-top" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+      </div>
+    </footer>
+  </body>
+</html>
